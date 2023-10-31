@@ -11,6 +11,10 @@ RUN apk update && \
     grep -v '^#' /extra-packages | xargs apk add
 RUN rm /extra-packages
 
+COPY testing-packages /
+RUN grep -v '^#' /testing-packages | xargs apk add --repository https://dl-cdn.alpinelinux.org/alpine/edge/testing/
+RUN rm /testing-packages
+
 RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \ 
