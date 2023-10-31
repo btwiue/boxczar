@@ -1,7 +1,8 @@
 age
+aria2
 atuin
-btop
 bat
+bottom
 chezmoi
 clipboard
 cosign
@@ -9,12 +10,11 @@ dbus-x11
 direnv
 eza
 ffmpeg
+fish
 fzf
 github-cli
-helix
 just
 make
-micro
 ncdu
 ncurses
 neofetch
@@ -23,9 +23,10 @@ npm
 plocate
 python3
 ripgrep
-speedtest-cli
+skim
 starship
-vimdiff
+wezterm
 wl-clipboard
-zellij
+yt-dlp
+zoxide
 zstd
