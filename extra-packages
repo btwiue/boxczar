@@ -15,6 +15,7 @@ fzf
 github-cli
 just
 make
+mesa-egl
 ncdu
 ncurses
 neofetch
